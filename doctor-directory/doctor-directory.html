@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Doctor Directory</title>
+
+    <link rel="stylesheet"
+          href="doctor-directory.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+
+    <div class="backgroundOverlay"></div>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <button id="backButton">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+
+        <div class="titleContainer">
+
+            <h1 id="directoryTitle">
+
+                SPECIALTY
+
+            </h1>
+
+        </div>
+
+        <img
+            src="MRXUH LOGO.png"
+            class="hospitalLogo"
+            alt="Hospital Logo">
+
+    </header>
+
+    <!-- ADMIN -->
+
+    <button id="adminButton">
+
+        ⚙
+
+    </button>
+
+    <!-- ADD DOCTOR -->
+
+    <button id="addDoctorButton">
+
+        + Add Doctor
+
+    </button>
+
+    <!-- DOCTOR GRID -->
+
+    <main>
+
+        <div id="doctorGrid">
+
+            <!-- Generated automatically -->
+
+        </div>
+
+    </main>
+
+    
+
+
+
+    <!-- LOGIN MODAL -->
+
+    <div class="modal"
+         id="loginModal">
+
+        <div class="modalContent">
+
+            <h2>
+
+                Administrator Login
+
+            </h2>
+
+            <p>
+
+                Enter password to edit doctors.
+
+            </p>
+
+            <input
+
+                type="password"
+
+                id="loginPassword"
+
+                placeholder="Password">
+
+            <div class="modalButtons">
+
+                <button id="cancelLogin">
+
+                    Cancel
+
+                </button>
+
+                <button id="loginButton">
+
+                    Login
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ADD / EDIT DOCTOR -->
+
+    <div class="modal"
+         id="doctorModal">
+
+        <div class="modalContent large">
+
+            <h2 id="doctorModalTitle">
+
+                Doctor Information
+
+            </h2>
+
+            <input
+                id="doctorName"
+                placeholder="Doctor Name">
+
+            <input
+                id="doctorSpecialty"
+                placeholder="Specialty">
+
+            <input
+                id="doctorRoom"
+                placeholder="Room">
+
+            <input
+                id="doctorFloor"
+                placeholder="Floor">
+
+            <input
+                id="doctorSchedule"
+                placeholder="Schedule">
+
+            <input
+                id="doctorTime"
+                placeholder="Time">
+
+            <input
+                id="doctorSecretary"
+                placeholder="Secretary">
+
+            <input
+                id="doctorPhone"
+                placeholder="Phone Number">
+
+            <input
+                id="doctorRemarks"
+                placeholder="Remarks">
+
+            <div class="modalButtons">
+
+                <button id="cancelDoctor">
+
+                    Cancel
+
+                </button>
+
+                <button id="saveDoctor">
+
+                    Save
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="doctorBackButton" onclick="goBack()"></div>
+
+ 
+
+
+    <script src="doctor-data.js"></script>
+
+    <script src="doctor-directory.js"></script>
+
+</body>
+
+</html>

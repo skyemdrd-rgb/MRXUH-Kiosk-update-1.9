@@ -1208,26 +1208,36 @@ body.debug .hotspot{
 .dermatologistBtn{top:68.6%;left:7.1%;width:28.5%;height:10.0%;}
 .neurologistBtn{top:68.6%;left:37.25%;width:25.8%;height:10.0%;}
 .rheumatologistBtn{top:68.6%;left:64.35%;width:28.4%;height:10.0%;}
+/* NEW BUTTONS */
+.nephrologistBtn{
+    position:absolute;
+    left:7.1%;
+    top: 81%;
+    width:560px;
+    height:86px;
+}
+
+.psychiatristBtn{
+    position:absolute;
+    left:37.25%;
+    top:81%;
+    width:500px;
+    height:86px;
+}
+
+/* SURGICAL ONCOLOGIST */
+
+.surgicalOncologistBtn{
+    position:absolute;
+    left:565px;
+    top:800px;
+    width:790px;
+    height:92px;
+}
 
 /* =========================================
    IM DEPARTMENT SCREENS
 ========================================= */
-
-.allergologist-bg{background-image:url('clinics/allergologist.webp');}
-.cardiologist-bg{background-image:url('clinics/cardiologist.webp');}
-.criticalCare-bg{background-image:url('clinics/critical-care-medicine.webp');}
-.dermatologist-bg{background-image:url('clinics/dermatologist.webp');}
-.endocrinologist-bg{background-image:url('clinics/endocrinologist.webp');}
-.gastroenterologist-bg{background-image:url('clinics/gastroenterologist.webp');}
-.generalIm-bg{background-image:url('clinics/general-im.webp');}
-.hematologist-bg{background-image:url('clinics/adult-hematologist.webp');}
-.infectiousDisease-bg{background-image:url('clinics/infectious-disease.webp');}
-.neurologist-bg{background-image:url('clinics/neurologist.webp');}
-.nuclearMedicine-bg{background-image:url('clinics/nuclear-medicine.webp');}
-.occupationalMedicine-bg{background-image:url('clinics/occupational-medicine.webp');}
-.oncologist-bg{background-image:url('clinics/oncologist.webp');}
-.pulmonologist-bg{background-image:url('clinics/pulmonologist.webp');}
-.rheumatologist-bg{background-image:url('clinics/rheumatologist.webp');}
 
 /* =========================================
    PEDIA

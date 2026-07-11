@@ -1052,6 +1052,16 @@ generalSurgery: {
     ]
 },
 
+nephrologist:{
+    title:"Nephrologist",
+    doctors:[]
+},
+
+psychiatrist:{
+    title:"Psychiatrist",
+    doctors:[]
+},
+
 cardiovascularSurgery: {
     title: "CARDIO SURGERY",
     doctors: [
